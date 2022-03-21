@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>TailwindCSS Landing Page</title>
+      <link rel="stylesheet" href="./assets/css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+   </head>
+   <body class="bg-white mx-auto max-w-7xl ">
+      <!-- Nav Start -->
+      <nav class="px-8 py-6">
+         <div class="flex items-center justify-between">
+            <div>
+               <a href="#">
+               <img class="h-9" src="./assets/img/logo.svg" alt="">
+               </a>
+            </div>
+            <div class="space-x-8 hidden lg:block">
+               <a href="" class="text-lg font-semibold text-black">Home</a>
+               <a href="" class="text-lg hover:font-semibold hover:text-black ">Features</a>
+               <a href="" class="text-lg hover:font-semibold hover:text-black ">Showcase</a>
+               <a href="" class="text-lg hover:font-semibold hover:text-black ">Pricing</a>
+            </div>
+            <div>
+               <button class="bg-gray-100 text-lg py-2 px-10 rounded-3xl hover:font-semibold hover:text-black  hidden md:block">Sign In</button>
+            </div>
+         </div>
+      </nav>
+         <!-- Nav end -->
+
+         <!-- Banner Start -->
+      <div class="banner lg:mt-10 md:mt-24 mt-5 lg:px-20 md:px-40  px-12 md:text-center lg:text-left text-left">
+         <div class="flex justify-around space-x-8">
+            <div class="flex-1 flex items-center">
+               <div class="space-y-8 pr-4 ">
+                  <h1 class="lg:leading-tight md:leading-tight leading-tight lg:text-5xl font-black md:text-5xl text-4xl ">Manage Payroll Like an Expert</h1>
+                  <p class="lg:text-md md:text-lg text-gray-600">Payna is helping you to setting up the payroll without
+                     required any finance skills or knowledge before
+                  </p>
+                  <button class="bg-blue-600 py-3 px-8 text-sm rounded-3xl text-white">Get Started</button>
+               </div>
+            </div>
+            <div class="flex-2 md:hidden hidden lg:block p-10 ">
+               <div  class="relative">
+                  <div>
+                     <img src="./assets/img/image-banner.png" class="rounded-3xl" alt="">
+                  </div>
+                  <div class=" w-[213px] bg-white rounded-2xl items-center absolute top-10 -right-20 drop-shadow-xl">
+                     <div class="flex px-2 py-4 space-x-2 items-center ">
+                        <img  class="h-10 w-10" src="./assets//img/analylitics-icon.png" alt="">
+                        <div>
+                           <h4 class="font-semibold text-gray-800">Bulk Export</h4>
+                           <p class="text-sm text-gray-600">Real time report</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="w-[213px] h-fit  bg-white  drop-shadow-xl rounded-3xl items-center absolute inset-y-1/3 -left-20">
+                     <div class="flex px-4 py-2 space-x-2 items-center ">
+                        <img  class="h-10 w-10" src="./assets//img/analylitics-icon.png" alt="">
+                        <div>
+                           <h4 class="font-semibold text-gray-800">Analytics</h4>
+                           <p class="text-sm text-gray-600">Real time report</p>
+                        </div>
+                     </div>
+                     <div class="flex justify-center">
+                        <img class="pb-4" src="./assets/img/graph.png" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+        <!-- Banner End -->
+
+      <!-- Clients Start -->
+      <section class="lg:flex md:flex-none justify-between lg:mt-10 md:mt-20 mt-10 space-y-8 lg:px-20 md:px-12 px-12 md:text-center text-left">
+         <h5 class="text-gray-900 font-bold">Trusted by <span class="md:inline-flex lg:block">Global Companies</span></h5>
+         <div class="grid grid-cols-3 md:grid-cols-5 gap-10 justify-between">
+            <img class="h-7" src="./assets/img/apple-11 1.png" alt="">
+            <img class="h-7" src="./assets/img/google-2015 1.png" alt="">
+            <img class="h-7" src="./assets/img/slack-2 1.png" alt="">
+            <img class="h-7" src="./assets//img/spotify-1 1.png" alt="">
+            <img class="h-7" src="./assets//img/Group 13.png" alt="">
+         </div>
+      </section>
+      <!-- Clients End -->
+
+      <!-- Services start -->
+      <section class="mt-32 space-y-8 lg:px-20 md:px-12 px-12">
+         <div class="text-center space-y-2">
+            <h5 class="text-sm font-semibold text-red-400 uppercase">Work Better</h5>
+            <h2 class="text-3xl font-bold text-black">For Your Business</h2>
+            <p class="py-4 text-gray-500">We did research what your company needs and <span class="block">here we are providing all of them just for you</span></p>
+         </div>
+         <div class="mt-10 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 grid-rows-2 justify-items-center">
+            <div class="w-[300px] bg-white rounded-2xl items-center   py-2">
+               <div class="flex px-2 py-4 space-x-4">
+                  <img  class="h-12 w-12" src="./assets/img/share.png" alt="">
+                  <div class="space-y-2">
+                     <h4 class="font-semibold text-gray-800 text-md">Share Insights</h4>
+                     <p class="text-sm text-gray-500 leading-relaxed">Working together with your
+                        team to make decisions
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="w-[300px] bg-white rounded-2xl items-center   py-2">
+               <div class="flex px-2 py-4 space-x-4">
+                  <img  class="h-12 w-12" src="./assets/img/track.png" alt="">
+                  <div class="space-y-2">
+                     <h4 class="font-semibold text-gray-800 text-md">Track Leads</h4>
+                     <p class="text-sm text-gray-500 leading-relaxed">Working together with your
+                        team to make decisions
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="w-[300px] bg-white rounded-2xl items-center   py-2">
+               <div class="flex px-2 py-4 space-x-4">
+                  <img  class="h-12 w-12" src="./assets/img/offline.png" alt="">
+                  <div class="space-y-2">
+                     <h4 class="font-semibold text-gray-800 text-md">Offline Mode</h4>
+                     <p class="text-sm text-gray-500 leading-relaxed">Use the feature while off
+                        from internet? sure can
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="w-[300px] bg-white rounded-2xl items-center   py-2">
+               <div class="flex px-2 py-4 space-x-4">
+                  <img  class="h-12 w-12" src="./assets/img/kanaban.png" alt="">
+                  <div class="space-y-2">
+                     <h4 class="font-semibold text-gray-800 text-md">Kanban Mode</h4>
+                     <p class="text-sm text-gray-500 leading-relaxed">Organize the report that
+                        easy to be understand
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="w-[300px] bg-white rounded-2xl items-center   py-2">
+               <div class="flex px-2 py-4 space-x-4">
+                  <img  class="h-12 w-12" src="./assets/img/reward.png" alt="">
+                  <div class="space-y-2">
+                     <h4 class="font-semibold text-gray-800 text-md">Reward System</h4>
+                     <p class="text-sm text-gray-500 leading-relaxed">Motivate your team working
+                        harder and receive a gift
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="w-[300px] bg-white rounded-2xl items-center   py-2">
+               <div class="flex px-2 py-4 space-x-4">
+                  <img  class="h-12 w-12" src="./assets/img/century.png" alt="">
+                  <div class="space-y-2">
+                     <h4 class="font-semibold text-gray-800 text-md">189 Country</h4>
+                     <p class="text-sm text-gray-500 leading-relaxed">Working together worldwide
+                        people from anywhere
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+          <!-- Services End -->
+
+
+          <!-- contact Start -->
+      <section class="banner my-20 space-y-8 lg:px-20 md:px-12 px-12">
+         <div class="md:flex md:flex-row  flex-row justify-start gap-3 space-y-6">
+            <div class="flex-1  md:p-10  flex justify-items-start">
+               <img cl src="./assets//img/video-thumbnail.png" class="rounded-3xl" alt="">
+            </div>
+            <div class="flex-1 flex justify-center items-center  text-center md:text-left ">
+               <div class="space-y-2">
+                  <h5 class="text-sm font-semibold text-red-400 uppercase">Work Better</h5>
+                  <h2 class="text-3xl font-bold text-black">For Your Business</h2>
+                  <p class="py-4 text-gray-500">Your employees can bring any success into your <span class="block">business, so we need to take care of them</span></p>
+                  <div class="relative text-gray-700">
+                     <input class="w-full h-10 pl-3 pr-8 bg-gray-200 rounded-3xl text-base placeholder-gray-400 border focus:shadow-outline" type="text" placeholder="Email Address"/>
+                     <button class="absolute inset-y-0 right-0 flex items-center px-4 text-white bg-blue-600 rounded-r-3xl hover:bg-blue-500 focus:bg-blue-700">Submit</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+         <!-- contact end -->
+   </body>
+</html>
